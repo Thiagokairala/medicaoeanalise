@@ -1,0 +1,17 @@
+*.aux
+*.bbl
+*.blg
+*.ist
+*.log
+*.out
+*.toc
+latex-git-log
+.acn
+.acr
+.alg
+.glg
+.glo
+.gls
+.idx
+.lof
+.lot

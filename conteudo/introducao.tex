@@ -1,33 +1,47 @@
 \subsection{Contexto}
-	A AEB é um órgão integrante do Sistema de Administração dos Recursos de Informação e Informática (SISP). Atualmente a divisão de TI se encontra em reformulação, portanto, ele não apresentam nenhum tipo de medição no decorrer do desenvolvimento do projeto.
+	A Agência Espacial Brasileira é um órgão integrante do Sistema de Administração dos Recursos de Tecnologia da Informação do Ministério do Planejamento, Orçamento e Gestão (SISP/MPOG). Um dos principais objetivos da instituição é a busca por uma administração pública que priorize a melhoria de gestão de recursos, e a qualidade na prestação de serviços ao cidadão. Dessa forma, a realização de um bom planejamento de TI que viabilize e potencialize a melhoria contínua da performance organizacional torna-se imprescindível. Vale salientar a necessidade de manter um alinhamento entre as estratégias da instituição com as da unidade de TI \cite{PDTI}.
 
-	Analisando o cenário atual da empresa, nota-se que umas das medições necessárias para avaliar o desempenho das atividades do projeto seriam: produtividade, custo do projeto (desenvolvimento e manutenção), usabilidade e satisfação do usuário.
+	No cenário atual de constantes mudanças, a divisão de TI encontra-se em uma fase de reestruturação. Os serviços de TI foram disciplinados em decorrência de regras estabelecidas pela IN04, e devido à complexidade dessas regras e procedimentos houve a necessidade de estruturar a área de Tecnologia da Informação como área estratégica da organização.
+
+	Dentre as principais atividades desempenhadas pela DINF, estão:
+
+	\begin{itemize}
+		\item{Elaboração, manutenção e controle do Portfólio de Projetos;}
+		\item{Desenvolvimento e manutenção de sistemas;}
+		\item{Gerência de segurança;}
+		\item{Gerência de máquinas virtuais e servidores;}
+		\item{Elaboração, manutenção e controle da Política de Segurança da Informação e Comunicação.}
+	\end{itemize}
 
 \subsection{Formulação do problema}
-	Atualmente a AEB não executa um processo de medição eficaz, causando diversos problemas de prazo por exemplo. Mediante a isso foi realizada uma reunião com o chefe do setor de desenvolvimento da DINF, e para ele as medições que mais interessavam seriam: produtividade, custo e usabilidade.
 
-	No contexto de produtividade, o cliente gostaria de saber o quanto sua equipe produz em uma quantidade ‘x’ de tempo.
+	Após realizar reuniões com o chefe do setor de desenvolvimento da DINF, a equipe de medição obteve acesso à informações de cunho privado que viabilizaram a análise do contexto de desenvolvimento da AEB.
 
-	Como a AEB é uma agência do governo, a preocupação com o custo dos projetos desenvolvidos não é de grande preocupação, tendo em vista que o gasto é fixo, independente de estar ou não em desenvolvimento, porém seria de grande importância  saber o valor gasto com cada projeto, para assim poder estimar os próximos, evitando assim atrasos, que em média, antes da reformulação, eram extremamente frequentes. Além do custo de desenvolvimento, é necessário, segundo o cliente, que o custo de manutenção seja medido, para poder basear análises de troca de produto.
+	Nessa vertente, foi possível constatar que nas gestões anteriores, atividades relacionadas à medição e análise não eram tidas como prioridade pela divisão. Então, a partir disso foi proposto a elaboração e execução de um plano de medição a fim de apresentar dados/estimativas reais nos seguintes âmbitos:
 
-	No que tange à usabilidade, o cliente acredita que seria interessante o levantamento do conforto dos usuários ao utilizar a aplicação.
+	\begin{itemize}
+		\item{Produtividade da equipe de desenvolvimento;}
+		\item{custo de manutenção dos sistemas implantados;}
+		\item{Satisfação do usuário que faz uso desses sistemas.}
+	\end{itemize}
 
 \subsection{Objetivos}
 
-	O objetivo geral que se pretende atingir durante a execução do trabalho é sensibilizar a AEB sobre a importância da medição, mostrando como o processo auxilia na identificação dos pontos falhos que estão presentes na organização assim como os pontos positivos, e utilizando essas métricas para ajudar na tomada de decisões para melhorar o processo de desenvolvimento de software.
+	O objetivo geral da pesquisa consiste em tornar claro e evidente aos membros da AEB a importância de utilizar o recurso da medição, seja para medir o processo, produto ou pessoas. Diversos modelos de maturidade, tais como CMMI E Mps Br, e padrões e certificação ISO incluíram práticas de atividades de mensuração como um requisito para processo de desenvolvimento maduro. Além disso, a medição, se conduzida da maneira adequada, provê a identificação de problemas, tomada de decisões com embasamento em indicadores consistentes, e também a melhora no processo da organização.
 
-	Os objetivos específicos que pretende-se alcançar com o trabalho são conhecer a produtividade da equipe durante o desenvolvimento de um software, identificar o custo das horas trabalhadas dos integrantes, descobrir o custo de desenvolvimento e de manutenção, analisar a usabilidade dos sistemas que são produzidos, analisar o custo benefício dos sistemas para a equipe de desenvolvimento.
+	Os objetivos específicos pretendidos são conhecer a produtividade da equipe sob o ponto de vista do desenvolvimento de um software; identificar o custo das hora trabalhada de cada integrante da equipe; estimar e avaliar o custo de manutenção de sistemas; avaliar a qualidade dos sistemas que são produzidos e quão satisfeitos os clientes estão ao usarem; analisar o custo-benefício dos sistemas para a equipe de desenvolvimento.
+
 
 \subsection{Justificativas}
 
-	Medição de software é uma avaliação quantitativa de qualquer aspecto dos processos e produtos de software, que permite seu melhor entendimento e, com isso, auxilia o planejamento, controle e melhoria do que se produz e de como é produzido [BASS et al., 1999].
+	Medição de software é uma avaliação quantitativa de qualquer aspecto dos processos e produtos de software, que permite seu melhor entendimento e, com isso, auxilia o planejamento, controle e melhoria do que se produz e de como é produzido \cite{bass1999constructing}.
 
-	As métricas atingidas com o processo de medição proposto podem ter infinitas utilidades como por exemplo:
+	Embora a equipe de desenvolvimento tenha um nível de conhecimento técnico elevado, seja independente e disciplinada, ainda não há um método consistente que verifique a relação de quanto um membro produz em um determinado período de tempo.
 
-	\begin{itemize}
-		\item{Análise do rendimento dos membros da equipe;}
-		\item{Descoberta de desníveis de conhecimento na equipe;}
-		\item{Análise crítica sobre a necessidade de descontinuar um sistema;}
-		\item{Análise sobre UI e UX dos sistemas desenvolvidos;}
-		\item{MAIs COISAS AQUI}
-	\end{itemize}
+	\begin{quote}
+		Sabe-se que um software de baixa qualidade demanda alto custo de manutenção, e consequentemente, diminui a lucratividade da empresa (Como reduzir o Custo de Manutenção de Software com a Análise de Código, 2014).
+	\end{quote}
+
+	A título de exemplificação vale citar o sistema de almoxarifado da AEB, cuja qualidade de código é baixa e seu custo de manutenção é elevado, entretanto esse sistema agrada e atende às exigências do cliente. Nessa perspectiva, é importante conhecer em que circunstâncias há viabilidade econômica para que a instituição mantenha determinados sistemas em operação.
+
+	Questões relacionadas ao valor de recursos financeiros repassados à AEB não são de grande preocupação no contexto atual, porém faz-se necessário compreender a relação de custo-benefício dos sistemas implantados. A satisfação do cliente impacta diretamente nessa relação, e com base nesse fator será possível entender se o cliente responde de maneira positiva ou negativo ao que foi entregue a ele.  Em suma, é muito importante averiguar o feedback do usuário, pois ele é o elemento principal que justifica o porquê de desenvolver de um software.

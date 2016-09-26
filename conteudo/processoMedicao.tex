@@ -4,154 +4,95 @@
 
 \begin{table}[H]
 \centering
-\begin{tabular}{|p{4cm}|p{5cm}|}
+\begin{tabular}{|p{4cm}|p{7cm}|}
 \hline
 	%-------------------------------------------------------
 	\textbf{Objetivo da medição} &
-	Medir o tempo de realização de cada tarefa
+	Esforço gasto para concluir cada issue.
 	\\ \hline
 	%-------------------------------------------------------
 	\textbf{Fórmula} &
-	$Tempo Inicial - Tempo final$
+	$E = \dfrac{Horas trabalhadas}{Estimativa de horas de cada issue}$
 	\\ \hline
 	%-------------------------------------------------------
 	\textbf{Escala da medição} &
-
+	Racional
 	\\ \hline
 	%-------------------------------------------------------
 	\textbf{Coleta} &
-	A coleta é feita inserindo a mensagem \#<numero da issue> XX:XX onde os x representam o tempo gasto, e será feita por todos os desenvolvedores.
+	\begin{itemize}
+		\item{Responsável: Thiago Kairala}
+		\item{Periodicidade ou Evento: Semanalmente.}
+		\item{Procedimentos: Preenchimento de formulário específico com as seguintes informações: Nome do desenvolvedor; Data; Projeto; Issue; Duração.}
+	\end{itemize}
 	\\ \hline
 	%-------------------------------------------------------
 	\textbf{Análise} &
-	A análise será realizada no fechamento de cada sprint, pelo chefe de desenvolvimento, para poder analizar com precisão o tempo gasto pelos desenvolvedores.
+	\begin{itemize}
+		\item Responsável: Indiara Duarte
+		\item Procedimentos: Identificar possíveis causas de desvios e possíveis ações.
+	\end{itemize}
 	\\ \hline
 	%-------------------------------------------------------
-	\textbf{Procedimento} &
-	Os possíveis desvios são tempos sub declarados ou super declarados a fim de parecer que a tarefa era mais fácil ou mais difícil do que realmente era.
-	\\ \hline
-  %-------------------------------------------------------
-  \textbf{Meta} &
-	Todas as tarefas devem ser feitas entre 4 e 40 horas.
+	\textbf{Meta} &
+	Limites de especificação
+		\begin{itemize}
+			\item Inferior: 0,9
+			\item Superior: 1,1
+		\end{itemize}
+	Limites de controle
+		\begin{itemize}
+			\item Inferior: 0,95
+			\item Superior: 1,05
+		\end{itemize}
   \\ \hline
 \end{tabular}
-\caption{Tempo de realização de tarefa}
-\label{tab:tempo_realizacao_tarefa}
+\caption{Efetividade da estimativa}
+\label{tab:efetividade_estimativa}
 \end{table}
+
+\subsubsection{Custo de manutenção}
 
 
 \begin{table}[H]
 \centering
-\begin{tabular}{|p{4cm}|p{5cm}|}
+\begin{tabular}{|p{4cm}|p{7cm}|}
 \hline
 	%-------------------------------------------------------
 	\textbf{Objetivo da medição} &
-	Estimar quanto tempo uma tarefa deve durar
+	Custo
 	\\ \hline
 	%-------------------------------------------------------
 	\textbf{Fórmula} &
-	O cálculo é feito por estimativa de quantas horas cada tarefa deve durar.
+	$C = Horas trabalhadas * Estimativa de horas de cada issue$
 	\\ \hline
 	%-------------------------------------------------------
 	\textbf{Escala da medição} &
-
+	Racional
 	\\ \hline
 	%-------------------------------------------------------
 	\textbf{Coleta} &
-	A coleta é feita no momento de priorização da tarefa, colocando na descrição da mesma, pelo chefe de desenvolvimento.
+	\begin{itemize}
+		\item{Responsável: Indiara Duarte}
+		\item{Periodicidade ou Evento: Quinzenalmente.}
+		\item{Procedimentos: Verificar a tabela de esforço.}
+	\end{itemize}
 	\\ \hline
 	%-------------------------------------------------------
 	\textbf{Análise} &
-	A análise é feita no planejamento da sprint, para garantir que não seja proposto mais do que a equipe tenha capacidade de entregar.
+	\begin{itemize}
+		\item Responsável: Thiago Kairala
+		\item Procedimentos: Identificar possíveis causas de desvios e possíveis ações.
+	\end{itemize}
 	\\ \hline
 	%-------------------------------------------------------
-	\textbf{Procedimento} &
-	Os possíveis desvios são subestimação ou superestimação da tarefa, causando uma estimativa muito maior ou menor que o real, podendo causar atraso ou dias sem atividade.
-	\\ \hline
-  %-------------------------------------------------------
-  \textbf{Meta} &
-	Todas as tarefas devem ser feitas entre 4 a 40 horas.
+	\textbf{Meta} &
+	Limites de especificação
+		Os limites devem variar de projeto para projeto.
   \\ \hline
 \end{tabular}
-\caption{Tempo estimado para realização da tarefa}
-\label{tab:tempo_estimado_realização_tarefa}
-\end{table}
-
-\subsubsection{Custo}
-
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|p{4cm}|p{5cm}|}
-\hline
-	%-------------------------------------------------------
-	\textbf{Objetivo da medição} &
-	Analisar o custo de desenvolvimento de uma tarefa
-	\\ \hline
-	%-------------------------------------------------------
-	\textbf{Fórmula} &
-	$Tempo de realização * Custo da hora do executor$
-	\\ \hline
-	%-------------------------------------------------------
-	\textbf{Escala da medição} &
-
-	\\ \hline
-	%-------------------------------------------------------
-	\textbf{Coleta} &
-	A coleta é feita no momento de fechamento da sprint pelo Chefe de desenvolvimento.
-	\\ \hline
-	%-------------------------------------------------------
-	\textbf{Análise} &
-	A análise será feita ao final do projeto, para se analizar o custo final, e poder apresentar para a alta direção da AEB.
-	\\ \hline
-	%-------------------------------------------------------
-	\textbf{Procedimento} &
-	Os possíveis desvios são causados pelo possível desvio na medição de tempo, podendo aumentar ou diminuir o custo final do projeto.
-	\\ \hline
-  %-------------------------------------------------------
-  \textbf{Meta} &
-	A meta depende de projeto para projeto.
-  \\ \hline
-\end{tabular}
-\caption{Custo por tarefa}
-\label{tab:custo_por_tarefa}
-\end{table}
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|p{4cm}|p{5cm}|}
-\hline
-	%-------------------------------------------------------
-	\textbf{Objetivo da medição} &
-	Analisar o custo de manuteção de cada sistema.
-	\\ \hline
-	%-------------------------------------------------------
-	\textbf{Fórmula} &
-	$Tempo de realização * Custo da hora do executor$
-	\\ \hline
-	%-------------------------------------------------------
-	\textbf{Escala da medição} &
-
-	\\ \hline
-	%-------------------------------------------------------
-	\textbf{Coleta} &
-	A coleta é feita a cada vez que uma tarefa de manutenção for executada.
-	\\ \hline
-	%-------------------------------------------------------
-	\textbf{Análise} &
-	A análise será feita quando exixtir a necessidade de análise sobre a continuidade ou não de um projeto.
-	\\ \hline
-	%-------------------------------------------------------
-	\textbf{Procedimento} &
-	Os possíveis desvios são causados pelo possível desvio na medição de tempo, podendo aumentar ou diminuir o custo final da manutenção.
-	\\ \hline
-  %-------------------------------------------------------
-  \textbf{Meta} &
-	A meta depende de projeto para projeto.
-  \\ \hline
-\end{tabular}
-\caption{Custo de manutenção}
-\label{tab:custo_de_manutenção}
+\caption{Efetividade da estimativa}
+\label{tab:efetividade_estimativa}
 \end{table}
 
 \subsubsection{Usabilidade}

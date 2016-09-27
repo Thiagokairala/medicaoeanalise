@@ -1,0 +1,300 @@
+\ifglsentryexists{AEB}{}%
+{%
+\gls@defglossaryentry{AEB}%
+{%
+name={AEN},%
+sort={AEN},%
+type={main},%
+first={AEN},%
+firstplural={AENs},%
+text={AEN},%
+plural={AENs},%
+description={Agência Espacial Brasileira},%
+descriptionplural={Agência Espacial Brasileira},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{DINF}{}%
+{%
+\gls@defglossaryentry{DINF}%
+{%
+name={DINF},%
+sort={DINF},%
+type={main},%
+first={DINF},%
+firstplural={DINFs},%
+text={DINF},%
+plural={DINFs},%
+description={Divisão de Informática},%
+descriptionplural={Divisão de Informática},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SISP}{}%
+{%
+\gls@defglossaryentry{SISP}%
+{%
+name={SISP},%
+sort={SISP},%
+type={main},%
+first={SISP},%
+firstplural={SISPs},%
+text={SISP},%
+plural={SISPs},%
+description={Sistema de Administração dos Recursos de Informação e Informática},%
+descriptionplural={Sistema de Administração dos Recursos de Informação e Informática},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{TI}{}%
+{%
+\gls@defglossaryentry{TI}%
+{%
+name={TI},%
+sort={TI},%
+type={main},%
+first={TI},%
+firstplural={TIs},%
+text={TI},%
+plural={TIs},%
+description={Tecnologia da Informação},%
+descriptionplural={Tecnologia da Informação},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MPOG}{}%
+{%
+\gls@defglossaryentry{MPOG}%
+{%
+name={MPOG},%
+sort={MPOG},%
+type={main},%
+first={MPOG},%
+firstplural={MPOGs},%
+text={MPOG},%
+plural={MPOGs},%
+description={Ministério do Planejamento},%
+descriptionplural={Ministério do Planejamento},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{GQM}{}%
+{%
+\gls@defglossaryentry{GQM}%
+{%
+name={GQM},%
+sort={GQM},%
+type={main},%
+first={GQM},%
+firstplural={GQMs},%
+text={GQM},%
+plural={GQMs},%
+description={Goal Question Metric},%
+descriptionplural={Goal Question Metric},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{PDTI}{}%
+{%
+\gls@defglossaryentry{PDTI}%
+{%
+name={PDTI},%
+sort={PDTI},%
+type={main},%
+first={PDTI},%
+firstplural={PDTIs},%
+text={PDTI},%
+plural={PDTIs},%
+description={Plano Diretor de Tecnologia de Informação},%
+descriptionplural={Plano Diretor de Tecnologia de Informação},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MPS-BR}{}%
+{%
+\gls@defglossaryentry{MPS-BR}%
+{%
+name={MPS-BR},%
+sort={MPS-BR},%
+type={main},%
+first={MPS-BR},%
+firstplural={MPS-BRs},%
+text={MPS-BR},%
+plural={MPS-BRs},%
+description={Melhoria de Processo de Software Brasileiro},%
+descriptionplural={Melhoria de Processo de Software Brasileiro},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CMMI}{}%
+{%
+\gls@defglossaryentry{CMMI}%
+{%
+name={CMMI},%
+sort={CMMI},%
+type={main},%
+first={CMMI},%
+firstplural={CMMIs},%
+text={CMMI},%
+plural={CMMIs},%
+description={Capability Maturity Model Integration},%
+descriptionplural={Capability Maturity Model Integration},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{IN04}{}%
+{%
+\gls@defglossaryentry{IN04}%
+{%
+name={IN04},%
+sort={IN04},%
+type={main},%
+first={IN04},%
+firstplural={IN04s},%
+text={IN04},%
+plural={IN04s},%
+description={Instrução Normativa Nº 04/2010},%
+descriptionplural={Instrução Normativa Nº 04/2010},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
